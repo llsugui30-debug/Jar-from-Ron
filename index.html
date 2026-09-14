@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Where Silence Whispers</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Nunito:ital,wght@0,400;0,600;0,700;1,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="bunny-field" id="bunnyField"></div>
+
+  <main class="scene">
+    <div class="jar-wrap" id="jarWrap">
+      <div class="glow"></div>
+      <img src="assets/jar.png" alt="A glass jar full of folded love notes" draggable="false">
+    </div>
+
+    <button class="cta-btn" id="ctaBtn">Click the Jar</button>
+    <div class="counter" id="counter"></div>
+  </main>
+
+  <div class="overlay" id="overlay">
+    <div class="note-wrap">
+      <div class="note-card" id="noteCard">
+        <button class="close" id="closeBtn" aria-label="Close">&times;</button>
+        <span class="icon" id="noteIcon">💌</span>
+        <p id="noteText">Message goes here</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
