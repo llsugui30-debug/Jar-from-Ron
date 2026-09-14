@@ -174,7 +174,7 @@ body{
   align-items:center;
   justify-content:center;
   padding: 84px 6% 76px;
-  background-image: url('assets/tape.png');
+  background-image: url('tape.png');
   background-repeat: no-repeat;
   background-size: 100% 100%;
   filter: drop-shadow(0 16px 26px rgba(74,58,52,0.32));
