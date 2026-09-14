@@ -138,7 +138,7 @@
     wrap.style.width = 'clamp(' + Math.round(b.size * 5.2) + 'px, ' + b.size + 'vw, ' + Math.round(b.size * 9) + 'px)';
 
     const img = document.createElement('img');
-    img.src = 'assets/bunny.png';
+    img.src = 'bunny.png';
     img.alt = '';
     img.draggable = false;
     img.style.animationDuration = b.dur + 's';
